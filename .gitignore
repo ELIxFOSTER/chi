@@ -39,3 +39,27 @@ yarn-error.*
 # Firebase
 chi-app-1ac2e-firebase-adminsdk-fbsvc-9f69217d70.json
 *firebase-adminsdk*.json
+GoogleService-Info.plist
+google-services.json
+
+# Android
+android/app/debug.keystore
+android/app/release.keystore
+android/app/*.keystore
+android/app/*.jks
+
+# iOS
+ios/GoogleService-Info.plist
+ios/Pods/
+ios/build/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
